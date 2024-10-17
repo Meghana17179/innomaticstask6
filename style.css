@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container{
+    margin-top:40px;
+}
+.container h1{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+}
+.form-group label{
+    font-size:20px;
+    color: #264653;
+}
+#report-card-form {
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+#report-card-form input{
+    height:28px;
+    font-size:15px;
+    border: 2px solid #2a9d8f;
+}
+#report-card {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+#report-card h2{
+    font-size:30px;
+    font-weight: bold;
+}
+#report-card-table {
+    font-size: 15px;
+}
+#report-card-table th {
+    font-weight: bold;
+}
+thead th{
+    font-size:15px;
+}
+#report-card-table th, #report-card-table td {
+    font-family: 'Roboto', sans-serif;
+}
+#sum-report,#average-report,#generate-report,#clear-report{
+    margin-top:25px;
+    margin-bottom:25px;
+    font-size:14px;
+    font-weight: bold;
+}
+#student-name-display{
+    font-size:20px;
+}
+#average-marks-display,#overall-grade-display{
+    font-size:15px;
+    color: #264653;
+}
+#sum-display {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #264653;
+    text-align:center;
+}
+#average-display {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #264653;
+    text-align:center;
+}
